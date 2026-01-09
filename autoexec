@@ -1,0 +1,53 @@
+mat_viewportscale 0.67;	          						// Render settings
+fps_max 90;								                  	// Maximum frames per second  
+fps_max_ui 23.976;					          				// Dashboard frames per second
+fps_max_tools 23.976;				          				// FPS Tools
+// VIDEO SETTINGS | MISC.											//																					DEFAULT
+cl_particle_fallback_multiplier 4;						// Particle fallback to cheaper							2
+cl_particle_sim_fallback_base_multiplier 6;		// Particle sim fallback to cheaper					5
+cl_particle_sim_fallback_threshold_ms 4;			// Particle sim max load time								6
+cl_aggregate_particles 1;											// Particle aggregate												0
+cl_retire_low_priority_lights 0;							// Low to High priority lights							0
+csm_viewmodel_shadows 0;											// Viewmodel cascade shadows								1
+dota_allow_clientside_particles 0;						// Non-essential particles									1
+dota_disable_particle_lights 1;								// Disable particle lights									0
+lb_shadow_texture_height_override 64;					// Shadow texture height										-1
+lb_shadow_texture_width_override 64;					// Shadow texture width											-1
+lb_dynamic_shadow_resolution_base 64;					// Dynamic shadow res base									1024
+lb_dynamic_shadow_resolution_delay 3;					// Dynamic shadow res delay									0.85
+r_lightmap_size 65536;												// Lightmap size														65536
+r_dota_spotlight_shadows_resolution 64;				// Spotlight shadows res										256
+r_character_decal_resolution 128;							// Model decoration res											256
+r_aoproxy_cull_dist 4;												// Ambient occlusion max										12
+r_aoproxy_min_dist 3;													// Ambient occlusion min										3
+r_dota_shadow_ambient_light 1.25;							// Ambient light shadow											1.5
+r_dota_local_light_compute 0;									// Ambient light compute										1
+r_light_flickering_enabled 0;									// Ambient light flickering									1
+r_particle_max_detail_level 0;								// Particle max detail											3
+r_particle_max_texture_layers 2;							// Particle max Layers											-1
+r_particle_cables_cast_shadows 0;							// Particle cables shadows									1
+r_dosta_allow_spotlight_shadows 0;						// Spotlight shadows												1
+r_dota_allow_desaturate_layers 0;							// Desaturate Layers												1
+r_dota_color_correction 0;										// Color correction													1
+r_dota_enabled_3d_skybox_postprocess 0;				// Skybox postprocess												1
+r_dota_render_2d_skybox 0;										// Skybox clouds														1
+r_draw_selected_ring 0;												// Draw selected ring												1
+r_depth_of_field 0;														// Dept of field														1
+sc_clutter_density_full_size 0.04;						// Scene clutter density										0.05
+sc_shadow_depth_bias 64;											// Shadow depth bias												256
+//engine_enable_frametime_warnings 0;					// Console spam frametime > 100ms						1
+engine_no_focus_sleep 20;											// Power savings while alt-tab							20
+engine_allow_multiple_ticks_per_frame 1;			// Allow tickrate above fps?								1
+engine_allow_multiple_simulates_per_frame 1;	// Allow particle sim above fps?						0
+//dota_defer_panorama_on_sim_ticks 0;					// Panorama sync with particles?						0
+dota_enable_spatial_audio 1;									// 3D positional audio											0
+snd_mixahead 0.05;														// Sound anti-crackling buffer							0.001
+filesystem_buffer_size 65536;									// File-read buffer?
+
+cl_network_quality2 1;												// Net high quality													0
+rate 80000;																		// Net rate max receive											80000
+cl_interp_ratio 2;														// Net interpolation ratio									2
+cl_updaterate 60;															// Net updates per second										30
+//cl_interp 0 | grep %;												// cl_interp_ratio/cl_updaterate RIP				0.05
+cl_smooth 1;																	// Smooth interp errors											1
+cl_smoothtime 0.2;														// Smooth interp errors secs								0.2
