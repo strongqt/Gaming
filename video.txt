@@ -3,12 +3,12 @@
 	"Version"		"0"
 	"VendorID"		"4098"
 	"DeviceID"		"5592"
-	"setting.cpu_level"		"1"
-	"setting.mem_level"		"1"
-	"setting.gpu_mem_level"		"1"
+	"setting.cpu_level"		"0"
+	"setting.mem_level"		"0"
+	"setting.gpu_mem_level"		"0"
 	"setting.defaultres"		"1600"
 	"setting.defaultresheight"		"900"
-	"setting.gpu_level"		"1"
+	"setting.gpu_level"		"0"
 	"setting.version"		"1"
 	"setting.knowndevice"		"0"
 	"setting.refreshrate_numerator"		"0"
@@ -51,3 +51,4 @@
 	"setting.monitor_index"		"0"
 	"setting.aspectratiomode"		"1"
 }
+
